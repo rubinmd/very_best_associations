@@ -250,6 +250,6 @@ What are the CRUD resources you need in your app? In other words, what are the c
 
 Use the [Ideas feature in First Draft](http://www.firstdraft.com/ideas) to help solidify your domain model. You can skip the sketches and stories, but if you enter your tables and columns, the tool will help you with your code.
 
-Treat users as just another CRUD table, like we did in this project; next week we'll see how to allow people to sign in.
+Treat users as just another CRUD table, like we did in this project; next, we'll see how to allow people to sign in.
 
 **Ask lots of questions**. Good luck!
