@@ -11,6 +11,15 @@
       <dt>Cuisine</dt>
       <dd><%= @dish.cuisine.name %></dd>
 
+      <dt>Favorites</dt>
+      <dd>
+      <% @f=@dish.favorites%>
+      <% @f.each do |favorite| %>
+      <%= favorite.user.username %> recommends it at <%= favorite.venue.name %>
+      <br>
+      <% end %>
+      </dd>
+
     </dl>
 
     <div class="btn-group btn-group-justified">

@@ -7,7 +7,13 @@
     <dl class="dl-horizontal">
       <dt>Name</dt>
       <dd><%= @cuisine.name %></dd>
-
+      <dt>Dishes</dt>
+      <dd>
+      <% d=@cuisine.dishes %>
+      <% d.each do |dish| %>
+      <%= dish.name %> <br>
+      <% end %>
+      </dd>
     </dl>
 
     <div class="btn-group btn-group-justified">
